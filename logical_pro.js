@@ -1,16 +1,12 @@
-// li=["shivani","pranay","romi","omi","somi","shivani"]
-// newli=[]
+li=["shivani","pranay","romi","omi","somi","shivani"]
+uniqueLi=[]
 
-// // for(let i = 0; i < li.length;i++ ){
+for(let i = 0; i < li.length;i++ ){
 
-// //     // console.log(i)
-// //     // console.log(li[i])
+    if (uniqueLi.indexOf(li[i]) === -1) {
+        uniqueLi.push(li[i]);
+    }
 
-// //     if(li[i] not){
+}
 
-// //     }
-
-// // }
-
-// let newli = li.filter(function)
-
+console.log(uniqueLi)
