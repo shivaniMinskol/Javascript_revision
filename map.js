@@ -60,3 +60,12 @@ mapB.forEach(function(x,y) {
     console.log(x,y)
 });
 
+mapB.set(5,"qa")
+console.log(mapB)
+
+console.log(mapB.get(5))
+
+console.log(mapB.has(2))
+
+console.log(mapB.size)
+
