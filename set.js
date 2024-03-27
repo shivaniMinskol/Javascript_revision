@@ -59,3 +59,32 @@ console.log(s.has(10))
 // size()- return number
 // console.log(s.size); // Output: 4
 // --------------------------------------------------------
+
+
+let myset = new Set()
+
+myset.add(10)
+myset.add(10)
+myset.add(20)
+myset.add(30)
+myset.add(40)
+myset.add(50)
+myset.add(60)
+myset.add(70)
+
+console.log(myset)
+// ---------------------------------------------------------------------------------
+// another way to defind set
+
+let mySetB = new Set([100, 200, 300, 400, 500]);
+console.log(mySetB)
+
+
+// mySetB.clear
+// mySetB.delete(200)
+// console.log(mySetB)
+// console.log(mySetB.has(100))
+
+// ---------------------------------------------------------------------------
+
+
