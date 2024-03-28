@@ -103,7 +103,7 @@ class Keyword{
 
     get lastName(){
         return this.lname
-    }
+    } 
 }
 
 let obj6 = new Keyword()
