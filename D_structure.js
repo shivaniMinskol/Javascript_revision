@@ -140,3 +140,26 @@ console.log(u1)
 
 
 
+// ------------------------------------------------------------------
+
+let dataObject = {
+            numbers: [1, 2, 3, 4, 5],
+            isEven: true,
+            isPositive: false,
+            fruits: ["apple", "banana", "orange"],
+            age: 25,
+            temperatures: [20.5, 21, 22.5, 23.7],
+            hasPets: true
+        }
+
+let {numbers:[a,b,c,d,e],isEven,isPositive,fruits:[x,y,z],age,temperatures:[p,q,r,s],hasPets} = dataObject
+        
+console.log(age)
+console.log(a)
+// ------------------------------------------------------------------------------------------------------------
+
+let li11 = [{firstName:"Shivani",lastName:"Hedau"},{firstName:"Pranay",lastName:"Hedau"}]
+
+let [{firstName:dfn,lastName:dln},{firstName:sfn,lastName:sln}]=li11
+console.log(sfn)
+console.log(dfn)
