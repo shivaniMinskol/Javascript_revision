@@ -45,10 +45,11 @@
         // arrow function scope shivani = window
      displayName:() => {
          // this --- window
-         console.log(this.firsName + this.lastName) // UshaHedau
+         console.log(this.firsName + this.lastName) // UshaHedau - NAN
          let displayName2 = () =>{
              // this - window
-             console.log(this.firsName + this.lastName) //UshaHedau
+             console.log(this.firsName + this.lastName) //UshaHedau NAN
+             
          }
          displayName2()
      }
